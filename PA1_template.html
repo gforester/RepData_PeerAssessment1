@@ -176,6 +176,7 @@ medianStepsNew &lt;- format(median(UpdtActivitiesPerDay$totalSteps))</code></pre
 </div>
 <div id="are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="section level2">
 <h2>Are there differences in activity patterns between weekdays and weekends?</h2>
+<p>Step activities is more active during the daytime hours on the weekend days.</p>
 <pre class="r"><code># create a factor variable for weekday and weekend day
 activitiesNoNA &lt;- activitiesNoNA %&gt;%
         mutate(day = wday(date, label = TRUE))

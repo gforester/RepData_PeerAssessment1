@@ -144,6 +144,8 @@ Median of the total number of steps taken per day: `r medianStepsNew`
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
+Step activities is more active during the daytime hours on the weekend days.
+
 ```{r weekdays vs weekend, echo=TRUE}
 
 # create a factor variable for weekday and weekend day

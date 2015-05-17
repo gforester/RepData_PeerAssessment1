@@ -144,6 +144,8 @@ Median of the total number of steps taken per day: 10766.19
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
+Step activities is more active during the daytime hours on the weekend days.
+
 
 ```r
 # create a factor variable for weekday and weekend day
